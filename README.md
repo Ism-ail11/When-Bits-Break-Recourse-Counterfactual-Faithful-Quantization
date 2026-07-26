@@ -107,11 +107,3 @@ Suite scripts additionally write CSV summaries. Metrics record the conditioning 
 - **CRG:** relative cost change on examples for which both FP and quantized recourse were feasible.
 - **Infeasible recourse:** reported separately through FP/Q feasible rates rather than hidden inside an arbitrary cost penalty.
 
-These conventions are configurable in code but fixed across compared methods in every supplied runner.
-
-
-
-
-## Citation
-
-@misc{yahyati2026whenbitsbreakrecourse, title = {When Bits Break Recourse: Counterfactual-Faithful Quantization}, author = {Yahyati, Chaymae and Lamaakal, Ismail and El Makkaoui, Khalid and Ouahbi, Ibrahim}, year = {2026}, eprint = {2605.17160}, archivePrefix = {arXiv}, primaryClass = {cs.LG}, url = {https://arxiv.org/abs/2605.17160} }
