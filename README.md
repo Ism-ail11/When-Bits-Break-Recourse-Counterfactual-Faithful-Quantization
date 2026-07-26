@@ -12,7 +12,6 @@ A clean PyTorch reference implementation for the paper **“When Bits Break Reco
 - CFQ-QAT, uniform QAT, accuracy-centric mixed precision, CF-PTQ, counterfactual sensitivity allocation, R-Margin, R-Consistency, pruning+quantization, and distillation+quantization.
 - Adult, German Credit, COMPAS, Bank Marketing, Default of Credit Card Clients, and synthetic tabular loaders.
 - MNIST and Fashion-MNIST latent-recourse experiments with a convolutional autoencoder.
-- A strict `SemanticEditor` interface for CelebA instead of silently substituting unrealistic pixel perturbations.
 - Constraint tightness, distribution shift, subgroup reporting, teacher quality/noise, budget curves, runtime, robust-solver, and theory diagnostics.
 
 ## Installation
