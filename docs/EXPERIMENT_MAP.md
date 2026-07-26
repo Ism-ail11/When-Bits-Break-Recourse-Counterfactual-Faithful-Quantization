@@ -23,4 +23,3 @@
 | Empirical epsilon and margin condition | `scripts/run_theory_diagnostics.py` | `theory_diagnostics.json` |
 | Counterfactual layer sensitivity/bit errors | `scripts/run_theory_diagnostics.py` | same JSON |
 | MNIST/Fashion latent recourse | `scripts/run_non_tabular.py` | `summary.csv`, autoencoder/model checkpoints |
-| CelebA semantic recourse | `cfq.semantic.SemanticEditor` interface | requires original editor/checkpoints |
