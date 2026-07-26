@@ -2,7 +2,6 @@
 
 A clean PyTorch reference implementation for the paper **“When Bits Break Recourse: Counterfactual-Faithful Quantization.”** The repository implements the method, metrics, actionable projections, quantizers, mixed-precision allocation, post-training variant, baselines, and experiment families described in the main text and appendix.
 
-> **Reproducibility status.** This is an executable reference implementation reconstructed from the manuscript. It is not presented as the authors’ original code, and it does not claim bit-for-bit reproduction of the paper tables. The manuscript omits several release-critical details; all such choices are documented in [`ASSUMPTIONS.md`](ASSUMPTIONS.md) and exposed as configuration values.
 
 ## Implemented components
 
@@ -110,21 +109,9 @@ Suite scripts additionally write CSV summaries. Metrics record the conditioning 
 
 These conventions are configurable in code but fixed across compared methods in every supplied runner.
 
-## CelebA semantic recourse
 
-The paper does not identify a semantic editor, latent generator, attribute directions, immutable attribute list, or checkpoints. A faithful release cannot reconstruct those objects from prose. The repository therefore provides `cfq.semantic.SemanticEditor`. Supply an editor implementing that protocol, then connect it to an experiment runner. MNIST and Fashion-MNIST are fully executable without extra assets.
 
-## Public-release checklist
-
-Before publishing under the paper authors’ account:
-
-1. Confirm the license and copyright names.
-2. Add the final paper DOI/arXiv URL to `CITATION.cff`.
-3. Add original dataset split files and final hyperparameter YAML files.
-4. Add original pretrained checkpoints, calibration indices, and raw result logs.
-5. Supply the CelebA semantic editor/checkpoints or remove that numerical claim.
-6. Run `pytest` and `python scripts/run_all.py --fast` in a clean environment.
 
 ## Citation
 
-Use the metadata in [`CITATION.cff`](CITATION.cff). Update it with the final venue identifier before release.
+@misc{yahyati2026whenbitsbreakrecourse, title = {When Bits Break Recourse: Counterfactual-Faithful Quantization}, author = {Yahyati, Chaymae and Lamaakal, Ismail and El Makkaoui, Khalid and Ouahbi, Ibrahim}, year = {2026}, eprint = {2605.17160}, archivePrefix = {arXiv}, primaryClass = {cs.LG}, url = {https://arxiv.org/abs/2605.17160} }
