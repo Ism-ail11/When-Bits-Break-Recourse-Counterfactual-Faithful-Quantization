@@ -44,12 +44,6 @@ cfq tabular \
   --output-dir results/adult/cfq
 ```
 
-Supported method names include:
-
-```text
-fp32, lsq, pact, mixedprec, cfq, cfq_uniform, cfq_match,
-ptq4, ptq8, mixedptq, cfptq, cfptq_sensitivity,
-r_margin, r_consistency, prune_quant, kd_quant
 ```
 
 ## Reproduce experiment families
